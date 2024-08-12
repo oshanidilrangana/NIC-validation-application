@@ -1,0 +1,57 @@
+/* .navbar{
+    background: #a6c885;
+    width:100%;
+    height: 50px;
+     
+}
+ 
+.logout_btn{
+    
+    position: absolute;
+    right: 100px;;
+    margin-left: 30px;
+    box-shadow:2px 2px 0 0;
+    background: #9d9f9c;
+    
+}
+ 
+
+ 
+.btn-success{
+    position: absolute;
+    right: 300px;;
+    margin-left: 30px;
+    box-shadow:2px 2px 2px 0;
+    background: #876464; 
+} */
+
+body {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.sidebar {
+    width: 250px;
+    background: #343a40;
+    color: #fff;
+    flex-shrink: 0;
+    height: 100vh;
+}
+.sidebar .nav-link {
+    color: #fff;
+}
+.sidebar .nav-link:hover {
+    background: #495057;
+}
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.card{
+     
+    width: 70%;
+    margin-top: 20px;
+    
+     
+}

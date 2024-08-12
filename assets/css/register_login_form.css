@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+
+ 
+
+.btn{
+  background-color: #4681f4;
+}
+.bg-image{
+   
+    background-size: cover;
+   
+    object-fit: cover;
+    float: none;
+    position: relative;
+  
+}
+
+.card{
+  box-shadow:0 25px 25px rgb(112, 107, 107);
+}
